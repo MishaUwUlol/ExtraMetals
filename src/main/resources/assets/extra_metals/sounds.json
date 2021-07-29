@@ -1,0 +1,24 @@
+{
+  "block.ore.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.ore.hit",
+    "sounds": [
+      {
+        "name": "extra_metals:ore_dig1",
+        "stream": false
+      },
+      {
+        "name": "extra_metals:ore_dig2",
+        "stream": false
+      },
+      {
+        "name": "extra_metals:ore_dig3",
+        "stream": false
+      },
+      {
+        "name": "extra_metals:ore_dig4",
+        "stream": false
+      }
+    ]
+  }
+}

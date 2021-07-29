@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "copper_pipe_side",
+        "1": "copper_pipe_up"
+      },
+      "name": "default"
+    }
+  }
+}

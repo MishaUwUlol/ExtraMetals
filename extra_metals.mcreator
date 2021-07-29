@@ -1,0 +1,432 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "NativeCopper",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "native_copper"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CopperOreLoot",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore_loot"
+    },
+    {
+      "name": "NativeCopperSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "native_copper_smelting"
+    },
+    {
+      "name": "NativeCopperBlasting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "native_copper_blasting"
+    },
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block"
+    },
+    {
+      "name": "CopperBlockCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block_craft"
+    },
+    {
+      "name": "CopperBucket",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bucket"
+    },
+    {
+      "name": "WaterCopperBucket",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_copper_bucket"
+    },
+    {
+      "name": "CopperBucketLava",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bucket_lava"
+    },
+    {
+      "name": "CopperBucketRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bucket_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterCopperBucketRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_copper_bucket_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperBucketLavaRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bucket_lava_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperBucketCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bucket_craft"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_ore"
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_tin"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_ingot"
+    },
+    {
+      "name": "RawTinSmelting",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_tin_smelting"
+    },
+    {
+      "name": "RawTinBlasting",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_tin_blasting"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_block"
+    },
+    {
+      "name": "TinBlockCraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_block_craft"
+    },
+    {
+      "name": "CopperBlockToIngotsCraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block_to_ingots_craft"
+    },
+    {
+      "name": "TinBlockToIngotsCraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_block_to_ingots_craft"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_block"
+    },
+    {
+      "name": "BronzeBlockCraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_block_craft"
+    },
+    {
+      "name": "BronzeBlockToIngotsCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_block_to_ingots_craft"
+    },
+    {
+      "name": "SmeltingFurnace",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_furnace"
+    },
+    {
+      "name": "SmeltingFurnaceGUI",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "smelting_furnace_gui"
+    },
+    {
+      "name": "SmeltingFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "block.ore.hit",
+      "files": [
+        "ore_dig1",
+        "ore_dig2",
+        "ore_dig3",
+        "ore_dig4"
+      ],
+      "category": "block",
+      "subtitle": "Block breaking"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.block.ore.dig": "Block breaking",
+      "block.extra_metals.tin_ore": "Tin Ore",
+      "block.extra_metals.bronze_block": "Bronze Block",
+      "item.extra_metals.copper_ingot": "Copper Ingot",
+      "item.extra_metals.tin_ingot": "Tin Ingot",
+      "block.extra_metals.tin_block": "Tin Block",
+      "item.extra_metals.raw_tin": "Raw Tin",
+      "block.extra_metals.copper_ore": "Copper Ore",
+      "item.extra_metals.native_copper": "Native Copper",
+      "subtitles.block.ore.hit": "Block breaking",
+      "item.extra_metals.copper_bucket": "Copper Bucket",
+      "item.extra_metals.bronze_ingot": "Bronze Ingot",
+      "item.extra_metals.water_copper_bucket": "Copper Bucket with Water",
+      "block.extra_metals.smelting_furnace": "Smelting Furnace",
+      "item.extra_metals.copper_bucket_lava": "Copper Bucket With Lava",
+      "block.extra_metals.copper_block": "Copper Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extra_metals",
+    "modName": "Extra Metals",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.extrametals",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100231709
+}

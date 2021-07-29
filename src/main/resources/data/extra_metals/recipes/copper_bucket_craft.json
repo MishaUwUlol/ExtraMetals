@@ -1,0 +1,23 @@
+{
+  "group": "extra_metals",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "extra_metals:copper_ingot"
+    },
+    "2": {
+      "item": "extra_metals:copper_ingot"
+    },
+    "4": {
+      "item": "extra_metals:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "extra_metals:copper_bucket",
+    "count": 1
+  }
+}

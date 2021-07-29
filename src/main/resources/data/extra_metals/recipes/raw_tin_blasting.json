@@ -1,0 +1,12 @@
+{
+  "group": "extra_metals",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "extra_metals:raw_tin"
+  },
+  "result": {
+    "item": "extra_metals:tin_ingot"
+  }
+}
