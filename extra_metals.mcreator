@@ -13,7 +13,7 @@
     {
       "name": "NativeCopper",
       "type": "item",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "CopperIngot",
       "type": "item",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "CopperOreLoot",
       "type": "loottable",
-      "sortid": 4,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "NativeCopperSmelting",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "NativeCopperBlasting",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "CopperBlock",
       "type": "block",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "CopperBlockCraft",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "CopperBucket",
       "type": "item",
-      "sortid": 9,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "WaterCopperBucket",
       "type": "item",
-      "sortid": 10,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "CopperBucketLava",
       "type": "item",
-      "sortid": 11,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "CopperBucketRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -136,7 +136,7 @@
     {
       "name": "WaterCopperBucketRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -169,7 +169,7 @@
     {
       "name": "CopperBucketLavaRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "CopperBucketCraft",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "TinOre",
       "type": "block",
-      "sortid": 17,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -220,7 +220,7 @@
     {
       "name": "RawTin",
       "type": "item",
-      "sortid": 18,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "TinIngot",
       "type": "item",
-      "sortid": 19,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +238,7 @@
     {
       "name": "RawTinSmelting",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -247,7 +247,7 @@
     {
       "name": "RawTinBlasting",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -256,7 +256,7 @@
     {
       "name": "TinBlock",
       "type": "block",
-      "sortid": 22,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -265,7 +265,7 @@
     {
       "name": "TinBlockCraft",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "CopperBlockToIngotsCraft",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -283,7 +283,7 @@
     {
       "name": "TinBlockToIngotsCraft",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -292,7 +292,7 @@
     {
       "name": "BronzeIngot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -301,7 +301,7 @@
     {
       "name": "BronzeBlock",
       "type": "block",
-      "sortid": 27,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -310,7 +310,7 @@
     {
       "name": "BronzeBlockCraft",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -319,40 +319,80 @@
     {
       "name": "BronzeBlockToIngotsCraft",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "bronze_block_to_ingots_craft"
     },
     {
-      "name": "SmeltingFurnace",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "smelting_furnace"
-    },
-    {
-      "name": "SmeltingFurnaceGUI",
-      "type": "gui",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "smelting_furnace_gui"
-    },
-    {
-      "name": "SmeltingFurnaceUpdateTick",
-      "type": "procedure",
+      "name": "TinOreLoot",
+      "type": "loottable",
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "smelting_furnace_update_tick",
+      "registry_name": "tin_ore_loot"
+    },
+    {
+      "name": "BronzeIngotCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ingot_craft"
+    },
+    {
+      "name": "TinBucket",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket"
+    },
+    {
+      "name": "TinBucketWithWater",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket_with_water"
+    },
+    {
+      "name": "TinBucketWithLava",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket_with_lava"
+    },
+    {
+      "name": "ExtraMetals",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extra_metals"
+    },
+    {
+      "name": "TinBucketRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket_right_clicked_on_block",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -371,6 +411,108 @@
           }
         ]
       }
+    },
+    {
+      "name": "TinBucketWithWaterRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket_with_water_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TinBucketWithLavaRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_bucket_with_lava_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ore"
+    },
+    {
+      "name": "ZincRaw",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_raw"
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ingot"
+    },
+    {
+      "name": "ZincBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_block"
     }
   ],
   "variable_elements": [],
@@ -388,22 +530,54 @@
     }
   ],
   "language_map": {
+    "ru_ru": {
+      "subtitles.block.ore.dig": "Ломание блока",
+      "block.extra_metals.tin_ore": "Оловяная Руда",
+      "block.extra_metals.bronze_block": "Бронзовый Блок",
+      "item.extra_metals.tin_bucket_with_water": "Оловянное Ведро с Водой",
+      "item.extra_metals.copper_ingot": "Медный Слиток",
+      "item.extra_metals.tin_ingot": "Оловяный Слиток",
+      "block.extra_metals.tin_block": "Оловяный Блок",
+      "itemGroup.tabextra_metals": "Вещи Extra Metals",
+      "item.extra_metals.raw_tin": "Сырое Олово",
+      "block.extra_metals.copper_ore": "Медная Руда",
+      "block.extra_metals.zinc_ore": "Оловянная Руда",
+      "item.extra_metals.native_copper": "Самородная Медь",
+      "item.extra_metals.tin_bucket": "Оловянное Ведро",
+      "subtitles.block.ore.hit": "Ломание блока",
+      "item.extra_metals.copper_bucket": "Медное Ведро",
+      "item.extra_metals.zinc_ingot": "Цинковый Слиток",
+      "item.extra_metals.bronze_ingot": "Бронзовый Слиток",
+      "block.extra_metals.zinc_block": "Цинковый Блок",
+      "item.extra_metals.water_copper_bucket": "Медное Ведро с Водой",
+      "item.extra_metals.tin_bucket_with_lava": "Оловянное Ведро с Лавой",
+      "item.extra_metals.copper_bucket_lava": "Медное Ведро с Лавой",
+      "item.extra_metals.zinc_raw": "Сырой Цинк",
+      "block.extra_metals.copper_block": "Медный Блок"
+    },
     "en_us": {
       "subtitles.block.ore.dig": "Block breaking",
       "block.extra_metals.tin_ore": "Tin Ore",
       "block.extra_metals.bronze_block": "Bronze Block",
+      "item.extra_metals.tin_bucket_with_water": "Tin Bucket With Water",
       "item.extra_metals.copper_ingot": "Copper Ingot",
       "item.extra_metals.tin_ingot": "Tin Ingot",
       "block.extra_metals.tin_block": "Tin Block",
+      "itemGroup.tabextra_metals": "Extra Metal Items",
       "item.extra_metals.raw_tin": "Raw Tin",
       "block.extra_metals.copper_ore": "Copper Ore",
+      "block.extra_metals.zinc_ore": "Tin Ore",
       "item.extra_metals.native_copper": "Native Copper",
+      "item.extra_metals.tin_bucket": "Tin Bucket",
       "subtitles.block.ore.hit": "Block breaking",
       "item.extra_metals.copper_bucket": "Copper Bucket",
+      "item.extra_metals.zinc_ingot": "Zinc Ingot",
       "item.extra_metals.bronze_ingot": "Bronze Ingot",
+      "block.extra_metals.zinc_block": "Zinc Block",
       "item.extra_metals.water_copper_bucket": "Copper Bucket with Water",
-      "block.extra_metals.smelting_furnace": "Smelting Furnace",
+      "item.extra_metals.tin_bucket_with_lava": "Tin Bucket With Lava",
       "item.extra_metals.copper_bucket_lava": "Copper Bucket With Lava",
+      "item.extra_metals.zinc_raw": "Zinc Raw",
       "block.extra_metals.copper_block": "Copper Block"
     }
   },

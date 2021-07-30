@@ -8,7 +8,7 @@
     "name": "Copper Bucket",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ExtraMetals"
     },
     "stackSize": 1,
     "enchantability": 0,

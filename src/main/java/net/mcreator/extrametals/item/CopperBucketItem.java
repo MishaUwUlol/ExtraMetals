@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.extrametals.itemgroup.ExtraMetalsItemGroup;
 import net.mcreator.extrametals.ExtraMetalsModElements;
 
 @ExtraMetalsModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class CopperBucketItem extends ExtraMetalsModElements.ModElement {
 	@ObjectHolder("extra_metals:copper_bucket")
 	public static final Item block = null;
 	public CopperBucketItem(ExtraMetalsModElements instance) {
-		super(instance, 9);
+		super(instance, 5);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class CopperBucketItem extends ExtraMetalsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ExtraMetalsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("copper_bucket");
 		}
 

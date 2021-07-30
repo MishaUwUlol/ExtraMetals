@@ -10,12 +10,12 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.extrametals.procedures.CopperBucketLavaRightClickedOnBlockProcedure;
+import net.mcreator.extrametals.itemgroup.ExtraMetalsItemGroup;
 import net.mcreator.extrametals.ExtraMetalsModElements;
 
 import java.util.Map;
@@ -26,7 +26,7 @@ public class CopperBucketLavaItem extends ExtraMetalsModElements.ModElement {
 	@ObjectHolder("extra_metals:copper_bucket_lava")
 	public static final Item block = null;
 	public CopperBucketLavaItem(ExtraMetalsModElements instance) {
-		super(instance, 11);
+		super(instance, 7);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class CopperBucketLavaItem extends ExtraMetalsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ExtraMetalsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("copper_bucket_lava");
 		}
 

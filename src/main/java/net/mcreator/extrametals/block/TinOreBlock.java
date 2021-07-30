@@ -27,7 +27,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -35,6 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.extrametals.itemgroup.ExtraMetalsItemGroup;
 import net.mcreator.extrametals.ExtraMetalsModElements;
 
 import java.util.Random;
@@ -44,7 +44,7 @@ public class TinOreBlock extends ExtraMetalsModElements.ModElement {
 	@ObjectHolder("extra_metals:tin_ore")
 	public static final Block block = null;
 	public TinOreBlock(ExtraMetalsModElements instance) {
-		super(instance, 17);
+		super(instance, 8);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -53,7 +53,7 @@ public class TinOreBlock extends ExtraMetalsModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(ExtraMetalsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

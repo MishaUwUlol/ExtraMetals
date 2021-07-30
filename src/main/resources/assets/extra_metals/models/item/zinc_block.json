@@ -1,5 +1,5 @@
 {
-  "parent": "extra_metals:block/smelting_furnace",
+  "parent": "extra_metals:block/zinc_block",
   "display": {
     "thirdperson": {
       "rotation": [

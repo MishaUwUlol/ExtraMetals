@@ -8,7 +8,7 @@
     "name": "Tin Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ExtraMetals"
     },
     "stackSize": 64,
     "enchantability": 0,

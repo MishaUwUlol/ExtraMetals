@@ -10,12 +10,12 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.extrametals.procedures.WaterCopperBucketRightClickedOnBlockProcedure;
+import net.mcreator.extrametals.itemgroup.ExtraMetalsItemGroup;
 import net.mcreator.extrametals.ExtraMetalsModElements;
 
 import java.util.Map;
@@ -26,7 +26,7 @@ public class WaterCopperBucketItem extends ExtraMetalsModElements.ModElement {
 	@ObjectHolder("extra_metals:water_copper_bucket")
 	public static final Item block = null;
 	public WaterCopperBucketItem(ExtraMetalsModElements instance) {
-		super(instance, 10);
+		super(instance, 6);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class WaterCopperBucketItem extends ExtraMetalsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ExtraMetalsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("water_copper_bucket");
 		}
 

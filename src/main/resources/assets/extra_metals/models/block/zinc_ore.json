@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extra_metals:blocks/zinc_ore",
+    "particle": "extra_metals:blocks/zinc_ore"
+  }
+}

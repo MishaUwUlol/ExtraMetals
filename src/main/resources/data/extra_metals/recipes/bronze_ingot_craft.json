@@ -1,0 +1,19 @@
+{
+  "group": "extra_metals",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "extra_metals:copper_ingot"
+    },
+    {
+      "item": "extra_metals:copper_ingot"
+    },
+    {
+      "item": "extra_metals:tin_ingot"
+    }
+  ],
+  "result": {
+    "item": "extra_metals:bronze_ingot",
+    "count": 1
+  }
+}

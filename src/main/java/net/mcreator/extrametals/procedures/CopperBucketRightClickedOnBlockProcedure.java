@@ -48,7 +48,7 @@ public class CopperBucketRightClickedOnBlockProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.WATER)) {
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.WATER)) {
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
 				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
@@ -60,7 +60,55 @@ public class CopperBucketRightClickedOnBlockProcedure {
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
 		}
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.LAVA)) {
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.WATER)) {
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(WaterCopperBucketItem.block);
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 3), (int) z))).getBlock() == Blocks.WATER)) {
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(WaterCopperBucketItem.block);
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.LAVA)) {
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(CopperBucketLavaItem.block);
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.LAVA)) {
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(CopperBucketLavaItem.block);
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 3), (int) z))).getBlock() == Blocks.LAVA)) {
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(CopperBucketItem.block);
 				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
